@@ -73,7 +73,6 @@ const Reviews = () => {
             >
                 Reviews
             </motion.h1>
-            {/* Testimonials */}
             <div className='flex flex-col md:flex-row gap-5 mt-5'>
                 {reviewsData.map((review) => (
                     <ReviewsCard 
@@ -85,12 +84,9 @@ const Reviews = () => {
             </div>
 
 
-            {/* Awards and review badges section - single row on large screens, stacked on mobile */}
             <div className="w-full flex flex-col lg:flex-row items-center justify-center gap-6 mt-12 px-2 sm:px-4 md:px-6 lg:px-8 xl:px-10">
-                {/* TripAdvisor badges row */}
                 <div className="flex flex-col items-center justify-center pb-3 lg:pb-0 px-4 py-1">
                     <div className="flex flex-row gap-4 items-end justify-center overflow-x-auto whitespace-nowrap">
-                        {/* Card style for each badge */}
                         <div className="bg-white border-white-300 p-3 shadow-md flex flex-col items-center justify-center  hover:border-white-500 transition-all duration-300">
                             <img src="/2024.png" alt="2024 TripAdvisor" className="w-28 h-28 object-contain drop-shadow-md hover:scale-105 transition-transform duration-300" />
                         </div>
@@ -110,7 +106,6 @@ const Reviews = () => {
                     <h2 className="font-bold text-base xs:text-lg sm:text-xl md:text-2xl mt-3 mb-2 text-center text-neutral-400 leading-tight max-w-xs sm:max-w-md md:max-w-lg">5-TIME TRAVELER’S CHOICE AWARD</h2>
                 </div>
                 
-                {/* Google and TripAdvisor review badges */}
                 <div className="flex flex-col gap-8 items-center justify-center max-w-xs min-w-[220px] mb-3 lg:mb-0">
                     <div className="w-full bg-white-100 border-white-800 p-3 shadow-md flex items-center gap-3 rounded-lg hover:border-white-500 hover:scale-105 transition-all duration-300 cursor-pointer">
                         <img src="/google.png" alt="Google" className="w-10 h-10 drop-shadow-md transition-transform duration-300" />
@@ -124,7 +119,6 @@ const Reviews = () => {
             </div>
 
 
-            {/* Award subtext */}
             <div className="mt-4 text-center">
                 <p className="font-semibold text-base text-neutral-400 md:text-xl">Proudly recognized by TripAdvisor for 5 consecutive years for outstanding service and guest satisfaction.</p>
             </div>
