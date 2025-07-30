@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 const ReviewsCard = (props) => {
     return (
         <motion.div 
-            className='w-full md:w-1/3 bg-white border-2 border-gray-300 pt-8 md:border-none p-5 shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105'
+            className='w-full md:w-1/3 bg-gray-100 border-2 border-gray-300 pt-8 md:border-none p-5 shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105'
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, ease: "easeOut" }}
