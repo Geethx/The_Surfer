@@ -2,7 +2,7 @@ import React from 'react';
 import { Award, Users, Home, Globe } from 'lucide-react';
 
 const PillarCard = ({ icon: Icon, title, description }) => (
-  <div className="flex flex-col items-center text-center p-6">
+  <div className="flex flex-col items-center text-center p-2">
     <div className="w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center mb-4 shadow-lg">
       <Icon className="w-10 h-10 text-white" strokeWidth={1.5} />
     </div>
