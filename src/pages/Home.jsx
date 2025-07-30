@@ -60,7 +60,6 @@ const Home = () => {
   ];
 
 
-  // Arrange all four cards in a single row, then the paragraph below
   const cardList = Object.values(cards);
 
   return (
@@ -69,9 +68,7 @@ const Home = () => {
       <SurfingJourney />
 
 
-      {/* Custom grid for surf camp cards and Difference paragraph */}
       <div className="max-w-7xl mx-auto px-6 py-10">
-        {/* All four cards in the same row */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {cardList.map((card, index) => (
             <motion.div
@@ -91,7 +88,6 @@ const Home = () => {
             </motion.div>
           ))}
         </div>
-        {/* Difference paragraph below first two cards, aligned with them */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
           <div className="col-span-1 sm:col-span-2 lg:col-span-2">
             <Difference />
@@ -109,7 +105,6 @@ const Home = () => {
       </motion.div>
 
       <div className="max-w-6xl mx-auto px-6">
-        {/* Destinations Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {destinations.map((destination, index) => (
             <ImageCard
