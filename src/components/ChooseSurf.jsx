@@ -7,11 +7,11 @@ const PillarCard = ({ icon: Icon, title, description }) => (
       <Icon className="w-10 h-10 text-white" strokeWidth={1.5} />
     </div>
     
-    <h3 className="text-gray-800 font-semibold text-sm mb-3 leading-tight">
+    <h3 className="text-neutral-400 font-semibold text-sm mb-3 leading-tight">
       {title}
     </h3>
     
-    <p className="text-gray-600 text-sm leading-relaxed max-w-xs">
+    <p className="text-neutral-400 text-sm leading-relaxed max-w-xs">
       {description}
     </p>
   </div>
@@ -45,10 +45,10 @@ export default function ChooseSurfCamp() {
     <div className="bg-gray-50 py-16">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-2">
+          <h2 className="text-3xl md:text-4xl font-bold text-neutral-400 mb-2">
             Why Choose The Surfer Surf Camps?
           </h2>
-          <p className="text-gray-600 text-lg">
+          <p className="text-neutral-400 text-lg">
             4 Key Pillars You Can Use:
           </p>
         </div>
