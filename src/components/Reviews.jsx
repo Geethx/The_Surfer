@@ -65,7 +65,7 @@ const Reviews = () => {
     return (
         <div className='py-8 flex flex-col items-center justify-center md:px-25 px-5'>
             <motion.h1 
-                className='text-3xl md:text-4xl lg:text-5xl font-bold text-neutral-400 text-center'
+                className='text-3xl md:text-4xl lg:text-5xl mb-8 font-bold text-neutral-400 text-center'
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.4, delay: 0.2, ease: "easeOut" }}
